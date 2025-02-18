@@ -8,7 +8,7 @@
 import { NextResponse } from 'next/server';
 
 // Mock data - In real app, this would come from a database
-const users = [
+export const users = [
     { id: 1, name: 'John Doe' },
     { id: 2, name: 'Jane Smith' }
 ];
